@@ -1,0 +1,40 @@
+.menu{
+    background-color: #384756;
+    grid-area: m;
+    min-height: 100vh;
+}
+.none{
+    max-width: 20px;
+}
+
+
+.logo{
+    padding: 20px 2px 20px 2px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #333f4e;
+}
+.widgetTitle {
+    color: #222;
+
+    left: 5px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.widgetList {
+    padding: 20px 0;
+    list-style: none;
+}
+
+.widgetList a {
+    text-decoration: none;
+    outline: none;
+    display: block;
+    padding: 6px 0;
+    border-bottom: 2px solid #333f4e;
+    border-top: 2px solid #333f4e;
+
+    font-weight: 300;
+    color: white;
+}

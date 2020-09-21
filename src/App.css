@@ -1,0 +1,23 @@
+.App {
+  display: grid;
+  grid-template-areas:
+  'm s'
+  'm n'
+  'm n'  ;
+
+  text-align: center;
+  grid-template-columns: 20% 80% ;
+  grid-template-rows: 9% 91% ;
+  background-color: #384756;
+
+  min-height: 100%;
+
+}
+
+
+
+
+
+
+
+

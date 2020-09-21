@@ -1,0 +1,23 @@
+.search{
+    background-color: #ffffff;
+    grid-area: s;
+
+}
+input {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+
+input{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 16px;
+    color: #9E9C9C;
+    background-image: url("./3028692271535694869.svg");
+    background-repeat: no-repeat;
+
+}
