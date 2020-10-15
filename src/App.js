@@ -1,17 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Menu from './component/Menu/Menu'
 import Main from './component/Main/Main'
 import Search from './component/Search/Search'
 
+
+
+
 function App() {
+
   return (
     <div className="App">
+            <div className='box1'>
+                <Menu/>
 
-            <Menu/>
-            <Search/>
-            <Main/>
+            </div>
+            <div className='box2'>
+                <Search/>
+                <Main/>
+            </div>
 
     </div>
   );

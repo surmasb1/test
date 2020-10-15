@@ -1,19 +1,31 @@
-.App {
-  display: grid;
-  grid-template-areas:
-  'm s'
-  'm n'
-  'm n'  ;
-
-  text-align: center;
-  grid-template-columns: 20% 80% ;
-  grid-template-rows: 9% 91% ;
-  background-color: #384756;
-
-  min-height: 100%;
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 
 }
+.App {
+  background-color: #cbcbcb;
+  display: flex;
+  text-align: center;
+  min-height: 100vh;
 
+}
+.box1{
+  width: 20%;
+
+}
+.box1small{
+  width: 4%;
+
+}
+.box2{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  /*overflow-x:hidden;*/
+
+}
 
 
 

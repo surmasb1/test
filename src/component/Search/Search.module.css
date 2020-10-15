@@ -1,23 +1,24 @@
 .search{
-    background-color: #ffffff;
-    grid-area: s;
 
-}
-input {
-    border: none;
-    outline: none;
-    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
 
 input{
-    width: 100%;
-    height: 50px;
-    padding-left: 10px;
+    width: 70%;
+    margin: 10px;
+    height: 35px;
     outline: none;
-    font-size: 16px;
-    color: #9E9C9C;
+    font-size: 20px;
+    color: #414141;
+    border: none;
+    border-radius: 10px;
     background-image: url("./3028692271535694869.svg");
     background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 5px;
 
 }
